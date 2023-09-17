@@ -1,0 +1,28 @@
+{
+	"name": "Metrodick",
+	"short_name": "Metrodick",
+	"version": "1.0.0",
+	"manifest_version": 3,
+	"description": "Corrects underground stations names, so they're right now!",
+	"author": "Tikhon Petrishchev",
+	"permissions": ["webRequest", "webNavigation"],
+	"host_permissions": ["https://*.yandex.ru/metro/*"],
+	"content_scripts":
+	[
+		{
+			"matches": ["https://*.yandex.ru/metro/*"],
+			"all_frames": true,
+			"js": ["content_script.js"],
+			"run_at": "document_end"
+		}
+	],
+	"web_accessible_resources": [
+		{
+			"resources": [ "stations_data.json" ],
+			"matches": [ "https://*.yandex.ru/*" ]
+		}
+	],
+	"background": {
+		"service_worker": "background.js"
+	}
+}
