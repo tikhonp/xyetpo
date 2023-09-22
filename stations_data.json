@@ -1,242 +1,1402 @@
 [
   {
-    "original_name": "Юго-Западная",
-    "replace_with": "Хуяпадная"
-  },
-  {
-    "original_name": "Вернадского",
-    "replace_with": "Хуядского"
-  },
-  {
-    "original_name": "Университет",
-    "replace_with": "Хуеситет"
-  },
-  {
-    "original_name": "Воробьёвы горы",
-    "replace_with": "Хуёвы горы"
-  },
-  {
-    "original_name": "Спортивная",
-    "replace_with": "Хуетивная"
-  },
-  {
-    "original_name": "Фрунзенская",
-    "replace_with": "Хуюзенская"
-  },
-  {
-    "original_name": "Парк культуры",
-    "replace_with": "Парк хуюры"
-  },
-  {
-    "original_name": "имени Ленина",
-    "replace_with": "имени Хуенина"
-  },
-  {
-    "original_name": "Охотный Ряд",
-    "replace_with": "Хуётный Ряд"
-  },
-  {
-    "original_name": "Кузнецкий Мост",
-    "replace_with": "Хуецкий Мост"
-  },
-  {
-    "original_name": "Чистые пруды",
-    "replace_with": "Чистые хуи"
-  },
-  {
-    "original_name": "Красные Ворота",
-    "replace_with": "Красные Хуёта"
-  },
-  {
-    "original_name": "Комсомольская",
-    "replace_with": "Хуёльская"
-  },
-  {
-    "original_name": "Красносельская",
-    "replace_with": "Краснохуельская"
-  },
-  {
-    "original_name": "Сокольники",
-    "replace_with": "Хуёльники"
-  },
-  {
-    "original_name": "Преображенская",
-    "replace_with": "Хуеженская"
-  },
-  {
-    "original_name": "Черкизовская",
-    "replace_with": "Хуизовская"
-  },
-  {
-    "original_name": "Рокоссовского",
-    "replace_with": "Хуебельского"
-  },
-  {
-    "original_name": "Лубянка",
-    "replace_with": "Хуянка"
-  },
-  {
-    "original_name": "Кропоткинская",
-    "replace_with": "Хуеткинская"
-  },
-  {
-    "original_name": "Алма-Атинская",
-    "replace_with": "Хуй-Хуинская"
-  },
-  {
-    "original_name": "Красногвардейская",
-    "replace_with": "Хуегвардейская"
-  },
-  {
-    "original_name": "Домодедовская",
-    "replace_with": "Хуйюедовская"
-  },
-  {
-    "original_name": "Орехово",
-    "replace_with": "Хуехово"
-  },
-  {
-    "original_name": "Царицыно",
-    "replace_with": "Хуицино"
-  },
-  {
-    "original_name": "Каширская",
-    "replace_with": "Хуирская"
-  },
-  {
-    "original_name": "Коломенская",
-    "replace_with": "Хуёменская"
-  },
-  {
-    "original_name": "Технопарк",
-    "replace_with": "Хуепарк"
+    "original_name": "Авиамоторная",
+    "replace_with": "Хуемоторная"
   },
   {
     "original_name": "Автозаводская",
     "replace_with": "Хуезаводская"
   },
   {
-    "original_name": "Павелецкая",
-    "replace_with": "Хуелецкая"
+    "original_name": "Академическая",
+    "replace_with": "Хуедемическая"
   },
   {
-    "original_name": "Новокузнецкая",
-    "replace_with": "Новохуецкая"
+    "original_name": "Александровский сад",
+    "replace_with": "Хуександровский сад"
   },
   {
-    "original_name": "Театральная",
-    "replace_with": "Хуяльная"
+    "original_name": "Алексеевская",
+    "replace_with": "Хуексеевская"
   },
   {
-    "original_name": "Тверская",
-    "replace_with": "Хуерская"
+    "original_name": "Алма-Атинская",
+    "replace_with": "Хуйма-Атинская"
   },
   {
-    "original_name": "Маяковская",
-    "replace_with": "Хуяковская"
+    "original_name": "Алтуфьево",
+    "replace_with": "Хуйтуфьево"
   },
   {
-    "original_name": "Белорусская",
-    "replace_with": "Хуюсская"
+    "original_name": "Аминьевская",
+    "replace_with": "Хуиньевская"
   },
   {
-    "original_name": "Динамо",
-    "replace_with": "Хуямо"
+    "original_name": "Андроновка",
+    "replace_with": "Хуёновка"
+  },
+  {
+    "original_name": "Аникеевка",
+    "replace_with": "Хуикеевка"
+  },
+  {
+    "original_name": "Аннино",
+    "replace_with": "Хуяннино"
+  },
+  {
+    "original_name": "Апрелевка",
+    "replace_with": "Хуелевка"
+  },
+  {
+    "original_name": "Арбатская",
+    "replace_with": "Хуятская"
+  },
+  {
+    "original_name": "Аэропорт Внуково",
+    "replace_with": "Хуеропорт Хуюково"
   },
   {
     "original_name": "Аэропорт",
     "replace_with": "Хуеропорт"
   },
   {
-    "original_name": "Сокол",
-    "replace_with": "Хуёкол"
+    "original_name": "Бабушкинская",
+    "replace_with": "Хуябушкинская"
   },
   {
-    "original_name": "Войковская",
-    "replace_with": "Хуёдный хуйдон"
+    "original_name": "Багратионовская",
+    "replace_with": "Хуятионовская"
+  },
+  {
+    "original_name": "Баковка",
+    "replace_with": "Хуяковка"
+  },
+  {
+    "original_name": "Балтийская",
+    "replace_with": "Хуйтийская"
+  },
+  {
+    "original_name": "Баррикадная",
+    "replace_with": "Хуекадная"
+  },
+  {
+    "original_name": "Бауманская",
+    "replace_with": "Хуяуманская"
+  },
+  {
+    "original_name": "Беговая",
+    "replace_with": "Хуеговая"
+  },
+  {
+    "original_name": "Белокаменная",
+    "replace_with": "Хуекаменная"
+  },
+  {
+    "original_name": "Беломорская",
+    "replace_with": "Хуеморская"
+  },
+  {
+    "original_name": "Белорусская",
+    "replace_with": "Хуерусская"
+  },
+  {
+    "original_name": "Беляево",
+    "replace_with": "Хуяево"
+  },
+  {
+    "original_name": "Бескудниково",
+    "replace_with": "Хуюдниково"
+  },
+  {
+    "original_name": "Бибирево",
+    "replace_with": "Хуибирево"
+  },
+  {
+    "original_name": "имени Ленина",
+    "replace_with": "имени Хуенина"
+  },
+  {
+    "original_name": "Битца",
+    "replace_with": "Хуитца"
+  },
+  {
+    "original_name": "Битцевский парк",
+    "replace_with": "Хуитцевский парк"
+  },
+  {
+    "original_name": "Борисово",
+    "replace_with": "Хуисово"
+  },
+  {
+    "original_name": "Боровицкая",
+    "replace_with": "Хуевицкая"
+  },
+  {
+    "original_name": "Боровское шоссе",
+    "replace_with": "Хуёровское шоссе"
+  },
+  {
+    "original_name": "Ботанический сад",
+    "replace_with": "Хуянический сад"
+  },
+  {
+    "original_name": "Братиславская",
+    "replace_with": "Хуеславская"
+  },
+  {
+    "original_name": "Адмирала Ушакова",
+    "replace_with": "Хуирала Ушакова"
+  },
+  {
+    "original_name": "Дмитрия Донского",
+    "replace_with": "Хуитрия Донского"
+  },
+  {
+    "original_name": "Рокоссовского",
+    "replace_with": "Хуесовского"
+  },
+  {
+    "original_name": "Бунинская",
+    "replace_with": "Хуининская"
+  },
+  {
+    "original_name": "Бутово",
+    "replace_with": "Хуютово"
+  },
+  {
+    "original_name": "Бутырская",
+    "replace_with": "Хуетырская"
+  },
+  {
+    "original_name": "Быково",
+    "replace_with": "Хуиково"
+  },
+  {
+    "original_name": "ВДНХ",
+    "replace_with": "ВДНХУЙ"
+  },
+  {
+    "original_name": "Варшавская",
+    "replace_with": "Хуешавская"
+  },
+  {
+    "original_name": "Верхние Котлы",
+    "replace_with": "Хуерхние Котлы"
+  },
+  {
+    "original_name": "Вешняки",
+    "replace_with": "Хуйняки"
+  },
+  {
+    "original_name": "Владыкино",
+    "replace_with": "Хуикино"
+  },
+  {
+    "original_name": "Внуково",
+    "replace_with": "Хуюково"
+  },
+  {
+    "original_name": "Водники",
+    "replace_with": "Хуёдники"
   },
   {
     "original_name": "Водный стадион",
-    "replace_with": "Новохуецкая"
+    "replace_with": "Хуёдный стадион"
   },
   {
-    "original_name": "Ручной",
-    "replace_with": "Хуечной"
+    "original_name": "Войковская",
+    "replace_with": "Хуйковская"
   },
   {
-    "original_name": "Кантемировская",
-    "replace_with": "Хуемировская"
+    "original_name": "Волгоградский",
+    "replace_with": "Хуеградский"
   },
   {
-    "original_name": "Краснопресненская",
-    "replace_with": "Краснохуецкая"
+    "original_name": "Волжская",
+    "replace_with": "Хуёлжская"
   },
   {
-    "original_name": "Киевская",
-    "replace_with": "Хуиевская"
+    "original_name": "Волоколамская",
+    "replace_with": "Хуеколамская"
   },
   {
-    "original_name": "Парк культуры",
-    "replace_with": "Парк хуюры"
+    "original_name": "Воробьёвы горы",
+    "replace_with": "Хуёвы горы"
   },
   {
-    "original_name": "Октябрьская",
-    "replace_with": "Хуябрьская"
+    "original_name": "Воронцовская",
+    "replace_with": "Хуйцовская"
+  },
+  {
+    "original_name": "Выставочная",
+    "replace_with": "Хуиставочная"
+  },
+  {
+    "original_name": "Выхино",
+    "replace_with": "Хуихино"
+  },
+  {
+    "original_name": "Говорово",
+    "replace_with": "Хуёворово"
+  },
+  {
+    "original_name": "Гражданская",
+    "replace_with": "Хуежданская"
+  },
+  {
+    "original_name": "Грачёвская",
+    "replace_with": "Хуёвская"
+  },
+  {
+    "original_name": "Давыдково",
+    "replace_with": "Хуидково"
+  },
+  {
+    "original_name": "Дегунино",
+    "replace_with": "Хуюнино"
+  },
+  {
+    "original_name": "Деловой центр",
+    "replace_with": "Хуевой центр"
+  },
+  {
+    "original_name": "Депо",
+    "replace_with": "Хуепо"
+  },
+  {
+    "original_name": "Динамо",
+    "replace_with": "Хуйнамо"
+  },
+  {
+    "original_name": "Дмитровская",
+    "replace_with": "Хуитровская"
   },
   {
     "original_name": "Добрынинская",
     "replace_with": "Хуининская"
   },
   {
-    "original_name": "Таганская",
-    "replace_with": "Новохуецкая"
+    "original_name": "Долгопрудная",
+    "replace_with": "Хуепрудная"
+  },
+  {
+    "original_name": "Домодедовская",
+    "replace_with": "Хуйуедовская"
+  },
+  {
+    "original_name": "Достоевская",
+    "replace_with": "Хуеевская"
+  },
+  {
+    "original_name": "Дубровка",
+    "replace_with": "Хуёвка"
+  },
+  {
+    "original_name": "Есенинская",
+    "replace_with": "Хуенинская"
+  },
+  {
+    "original_name": "Железнодорожная",
+    "replace_with": "Железнохуёжная"
+  },
+  {
+    "original_name": "Жулебино",
+    "replace_with": "Хуебино"
+  },
+  {
+    "original_name": "ЗИЛ",
+    "replace_with": "ХУИЛ"
+  },
+  {
+    "original_name": "Зеленоград",
+    "replace_with": "Хуеград"
+  },
+  {
+    "original_name": "— Крюково",
+    "replace_with": "— Хуюково"
+  },
+  {
+    "original_name": "Зорге",
+    "replace_with": "Хуёрге"
+  },
+  {
+    "original_name": "Зюзино",
+    "replace_with": "Хуюзино"
+  },
+  {
+    "original_name": "Зябликово",
+    "replace_with": "Хуябликово"
+  },
+  {
+    "original_name": "Измайлово",
+    "replace_with": "Хуяйлово"
+  },
+  {
+    "original_name": "Измайловская",
+    "replace_with": "Хуяйловская"
+  },
+  {
+    "original_name": "Ильинская",
+    "replace_with": "Хуинская"
+  },
+  {
+    "original_name": "Ипподром",
+    "replace_with": "Хуедром"
+  },
+  {
+    "original_name": "Казанский вокзал",
+    "replace_with": "Хуянский вокзал"
+  },
+  {
+    "original_name": "Калитники",
+    "replace_with": "Хуитники"
+  },
+  {
+    "original_name": "Калужская",
+    "replace_with": "Хуюжская"
+  },
+  {
+    "original_name": "Кантемировская",
+    "replace_with": "Хуемировская"
+  },
+  {
+    "original_name": "Каховская",
+    "replace_with": "Хуёвская"
+  },
+  {
+    "original_name": "Каширская",
+    "replace_with": "Хуирская"
+  },
+  {
+    "original_name": "Киевская",
+    "replace_with": "Хуиевская"
+  },
+  {
+    "original_name": "Китай-город",
+    "replace_with": "Хуй-город"
+  },
+  {
+    "original_name": "Кленовый",
+    "replace_with": "Хуёвый"
+  },
+  {
+    "original_name": "Кожуховская",
+    "replace_with": "Хуюховская"
+  },
+  {
+    "original_name": "Кокошкино",
+    "replace_with": "Хуёшкино"
+  },
+  {
+    "original_name": "Коломенская",
+    "replace_with": "Хуёменская"
+  },
+  {
+    "original_name": "Коммунарка",
+    "replace_with": "Хуенарка"
+  },
+  {
+    "original_name": "Комсомольская",
+    "replace_with": "Хуемольская"
+  },
+  {
+    "original_name": "Коньково",
+    "replace_with": "Хуйково"
+  },
+  {
+    "original_name": "Коптево",
+    "replace_with": "Хуёптево"
+  },
+  {
+    "original_name": "Косино",
+    "replace_with": "Хуесино"
+  },
+  {
+    "original_name": "Котельники",
+    "replace_with": "Хуельники"
+  },
+  {
+    "original_name": "Красково",
+    "replace_with": "Хуясково"
+  },
+  {
+    "original_name": "Красногвардейская",
+    "replace_with": "Хуегвардейская"
+  },
+  {
+    "original_name": "Красногорская",
+    "replace_with": "Хуегорская"
+  },
+  {
+    "original_name": "Краснопресненская",
+    "replace_with": "Краснохуесненская"
+  },
+  {
+    "original_name": "Красносельская",
+    "replace_with": "Краснохуельская"
+  },
+  {
+    "original_name": "Красные Ворота",
+    "replace_with": "Красные Хуёта"
+  },
+  {
+    "original_name": "Балтиец",
+    "replace_with": "Хуиец"
+  },
+  {
+    "original_name": "Строитель",
+    "replace_with": "Хуитель"
+  },
+  {
+    "original_name": "Кратово",
+    "replace_with": "Хуятово"
+  },
+  {
+    "original_name": "Застава",
+    "replace_with": "Хуява"
+  },
+  {
+    "original_name": "Крестьянская",
+    "replace_with": "Хуянская"
+  },
+  {
+    "original_name": "Кропоткинская",
+    "replace_with": "Хуёткинская"
+  },
+  {
+    "original_name": "Крылатское",
+    "replace_with": "Хуятское"
+  },
+  {
+    "original_name": "Крымская",
+    "replace_with": "Хуимская"
+  },
+  {
+    "original_name": "Крёкшино",
+    "replace_with": "Хуёкшино"
+  },
+  {
+    "original_name": "Кузнецкий Мост",
+    "replace_with": "Хуецкий Мост"
+  },
+  {
+    "original_name": "Кузьминки",
+    "replace_with": "Хуинки"
+  },
+  {
+    "original_name": "Кунцевская",
+    "replace_with": "Хуюнцевская"
   },
   {
     "original_name": "Курская",
     "replace_with": "Хуюрская"
   },
   {
-    "original_name": "Комсомольская",
-    "replace_with": "Хуёльская"
+    "original_name": "Курьяново",
+    "replace_with": "Хуяново"
+  },
+  {
+    "original_name": "Кусково",
+    "replace_with": "Хуйково"
+  },
+  {
+    "original_name": "Кутузовская",
+    "replace_with": "Хуюзовская"
+  },
+  {
+    "original_name": "Кучино",
+    "replace_with": "Хуючино"
+  },
+  {
+    "original_name": "Левобережная",
+    "replace_with": "Хуебережная"
+  },
+  {
+    "original_name": "Ленинградский вокзал",
+    "replace_with": "Хуеградский вокзал"
+  },
+  {
+    "original_name": "Ленинский проспект",
+    "replace_with": "Хуенинский проспект"
+  },
+  {
+    "original_name": "Лермонтовский",
+    "replace_with": "Хуермонтовский"
+  },
+  {
+    "original_name": "Лесной Городок",
+    "replace_with": "Хуйной Городок"
+  },
+  {
+    "original_name": "Лесопарковая",
+    "replace_with": "Хуепарковая"
+  },
+  {
+    "original_name": "Лефортово",
+    "replace_with": "Хуёртово"
+  },
+  {
+    "original_name": "Лианозово",
+    "replace_with": "Хуенозово"
+  },
+  {
+    "original_name": "Лихоборы",
+    "replace_with": "Хуеборы"
+  },
+  {
+    "original_name": "Лобня",
+    "replace_with": "Хуёбня"
+  },
+  {
+    "original_name": "Локомотив",
+    "replace_with": "Хуемотив"
+  },
+  {
+    "original_name": "Ломоносовский",
+    "replace_with": "Хуеносовский"
+  },
+  {
+    "original_name": "Лубянка",
+    "replace_with": "Хуянка"
+  },
+  {
+    "original_name": "Лужники",
+    "replace_with": "Хуйники"
+  },
+  {
+    "original_name": "Лухмановская",
+    "replace_with": "Хуямановская"
+  },
+  {
+    "original_name": "Люберцы",
+    "replace_with": "Хуюберцы"
+  },
+  {
+    "original_name": "Люблино",
+    "replace_with": "Хуйлино"
+  },
+  {
+    "original_name": "Малаховка",
+    "replace_with": "Хуяховка"
+  },
+  {
+    "original_name": "Марк",
+    "replace_with": "Хуярк"
+  },
+  {
+    "original_name": "Марксистская",
+    "replace_with": "Хуистская"
+  },
+  {
+    "original_name": "Марьина",
+    "replace_with": "Хуярьина"
+  },
+  {
+    "original_name": "Марьино",
+    "replace_with": "Хуярьино"
+  },
+  {
+    "original_name": "Матвеевская",
+    "replace_with": "Хуеевская"
+  },
+  {
+    "original_name": "Маяковская",
+    "replace_with": "Хуяковская"
+  },
+  {
+    "original_name": "Медведково",
+    "replace_with": "Хуеведково"
+  },
+  {
+    "original_name": "Международная",
+    "replace_with": "Хуенародная"
+  },
+  {
+    "original_name": "Менделеевская",
+    "replace_with": "Хуйделеевская"
+  },
+  {
+    "original_name": "Мещерская",
+    "replace_with": "Хуерская"
+  },
+  {
+    "original_name": "Минская",
+    "replace_with": "Хуинская"
+  },
+  {
+    "original_name": "Митино",
+    "replace_with": "Хуитино"
+  },
+  {
+    "original_name": "Мичуринец",
+    "replace_with": "Хуюринец"
+  },
+  {
+    "original_name": "Мичуринский",
+    "replace_with": "Хуюринский"
+  },
+  {
+    "original_name": "Мнёвники",
+    "replace_with": "Хуёвники"
+  },
+  {
+    "original_name": "Молжаниново",
+    "replace_with": "Хуяниново"
+  },
+  {
+    "original_name": "Молодёжная",
+    "replace_with": "Хуедёжная"
+  },
+  {
+    "original_name": "Москва-",
+    "replace_with": "Хуйва-"
+  },
+  {
+    "original_name": "Товарная",
+    "replace_with": "Хуйварная"
+  },
+  {
+    "original_name": "Москворечье",
+    "replace_with": "Хуеречье"
+  },
+  {
+    "original_name": "Моссельмаш",
+    "replace_with": "Хуйсельмаш"
+  },
+  {
+    "original_name": "Мякинино",
+    "replace_with": "Хуинино"
+  },
+  {
+    "original_name": "Нагатинская",
+    "replace_with": "Хуятинская"
+  },
+  {
+    "original_name": "Нагатинский",
+    "replace_with": "Хуятинский"
+  },
+  {
+    "original_name": "Нагорная",
+    "replace_with": "Хуёрная"
+  },
+  {
+    "original_name": "Ополчение",
+    "replace_with": "Охуение"
+  },
+  {
+    "original_name": "Нахабино",
+    "replace_with": "Хуябино"
+  },
+  {
+    "original_name": "Нахимовский",
+    "replace_with": "Хуимовский"
+  },
+  {
+    "original_name": "Некрасовка",
+    "replace_with": "Хуясовка"
+  },
+  {
+    "original_name": "Немчиновка",
+    "replace_with": "Хуиновка"
+  },
+  {
+    "original_name": "Нижегородская",
+    "replace_with": "Хуегородская"
+  },
+  {
+    "original_name": "Никольское",
+    "replace_with": "Хуёльское"
+  },
+  {
+    "original_name": "Новаторская",
+    "replace_with": "Хуяторская"
+  },
+  {
+    "original_name": "Новогиреево",
+    "replace_with": "Хуегиреево"
+  },
+  {
+    "original_name": "Новодачная",
+    "replace_with": "Новохуячная"
+  },
+  {
+    "original_name": "Новокосино",
+    "replace_with": "Новохуесино"
+  },
+  {
+    "original_name": "Новокузнецкая",
+    "replace_with": "Новохуецкая"
+  },
+  {
+    "original_name": "Новопеределкино",
+    "replace_with": "Новохуеделкино"
+  },
+  {
+    "original_name": "Новоподрезково",
+    "replace_with": "Новохуезково"
+  },
+  {
+    "original_name": "Новослободская",
+    "replace_with": "Новохуёдская"
+  },
+  {
+    "original_name": "Новохохловская",
+    "replace_with": "Новохуёвская"
+  },
+  {
+    "original_name": "Новоясеневская",
+    "replace_with": "Новохуясеневская"
+  },
+  {
+    "original_name": "Новые Черёмушки",
+    "replace_with": "Новые Хуёмушки"
+  },
+  {
+    "original_name": "Одинцово",
+    "replace_with": "Хуйцово"
+  },
+  {
+    "original_name": "Озёрная",
+    "replace_with": "Хуёрная"
+  },
+  {
+    "original_name": "Окружная",
+    "replace_with": "Охуйная"
+  },
+  {
+    "original_name": "Окская",
+    "replace_with": "Хуёкская"
+  },
+  {
+    "original_name": "Октябрьская",
+    "replace_with": "Хуябрьская"
+  },
+  {
+    "original_name": "Октябрьское Поле",
+    "replace_with": "Хуябрьское Поле"
+  },
+  {
+    "original_name": "Ольгино",
+    "replace_with": "Хуёльгино"
+  },
+  {
+    "original_name": "Ольховая",
+    "replace_with": "Ольхуёвая"
+  },
+  {
+    "original_name": "Опалиха",
+    "replace_with": "Хуялиха"
+  },
+  {
+    "original_name": "Орехово",
+    "replace_with": "Хуехово"
+  },
+  {
+    "original_name": "Останкино",
+    "replace_with": "Хуянкино"
+  },
+  {
+    "original_name": "Остафьево",
+    "replace_with": "Хуяфьево"
+  },
+  {
+    "original_name": "Отдых",
+    "replace_with": "Хуётдых"
+  },
+  {
+    "original_name": "Отрадное",
+    "replace_with": "Хуядное"
+  },
+  {
+    "original_name": "Охотный Ряд",
+    "replace_with": "Хуётный Ряд"
+  },
+  {
+    "original_name": "Очаково",
+    "replace_with": "Хуяково"
+  },
+  {
+    "original_name": "Павелецкая",
+    "replace_with": "Хуелецкая"
+  },
+  {
+    "original_name": "Павшино",
+    "replace_with": "Хуявшино"
+  },
+  {
+    "original_name": "Панки",
+    "replace_with": "Хуянки"
+  },
+  {
+    "original_name": "Панфиловская",
+    "replace_with": "Хуиловская"
+  },
+  {
+    "original_name": "Парк Победы",
+    "replace_with": "Парк Хуеды"
+  },
+  {
+    "original_name": "Парк культуры",
+    "replace_with": "Парк хуюры"
+  },
+  {
+    "original_name": "Партизанская",
+    "replace_with": "Хуезанская"
+  },
+  {
+    "original_name": "Пенягино",
+    "replace_with": "Хуягино"
+  },
+  {
+    "original_name": "Первомайская",
+    "replace_with": "Хуемайская"
+  },
+  {
+    "original_name": "Переделкино",
+    "replace_with": "Хуеделкино"
+  },
+  {
+    "original_name": "Перерва",
+    "replace_with": "Хуерва"
+  },
+  {
+    "original_name": "Перово",
+    "replace_with": "Хуйрово"
+  },
+  {
+    "original_name": "Петровский",
+    "replace_with": "Хуёвский"
+  },
+  {
+    "original_name": "Петровско-",
+    "replace_with": "Хуёвско-"
+  },
+  {
+    "original_name": "Разумовская",
+    "replace_with": "Расхуёвская"
+  },
+  {
+    "original_name": "Печатники",
+    "replace_with": "Хуйчатники"
+  },
+  {
+    "original_name": "Пионерская",
+    "replace_with": "Хуенерская"
+  },
+  {
+    "original_name": "Планерная",
+    "replace_with": "Хуянерная"
+  },
+  {
+    "original_name": "Площадь Гагарина",
+    "replace_with": "Площадь Хуярина"
+  },
+  {
+    "original_name": "Площадь Ильича",
+    "replace_with": "Площадь Хуича"
+  },
+  {
+    "original_name": "Площадь Революции",
+    "replace_with": "Площадь Хуюции"
+  },
+  {
+    "original_name": "трёх вокзалов",
+    "replace_with": "трёх хуялов"
+  },
+  {
+    "original_name": "Плющево",
+    "replace_with": "Хующево"
+  },
+  {
+    "original_name": "Победа",
+    "replace_with": "Хуеда"
+  },
+  {
+    "original_name": "Подольск",
+    "replace_with": "Хуёльск"
+  },
+  {
+    "original_name": "Подрезково",
+    "replace_with": "Хуезково"
+  },
+  {
+    "original_name": "Поклонная",
+    "replace_with": "Хуеклонная"
+  },
+  {
+    "original_name": "Покровское",
+    "replace_with": "Хуёвское"
+  },
+  {
+    "original_name": "Полежаевская",
+    "replace_with": "Хуежаевская"
+  },
+  {
+    "original_name": "Полянка",
+    "replace_with": "Хуянка"
+  },
+  {
+    "original_name": "Пражская",
+    "replace_with": "Хуяжская"
+  },
+  {
+    "original_name": "Преображенская",
+    "replace_with": "Преохуенская"
+  },
+  {
+    "original_name": "Прокшино",
+    "replace_with": "Хуёкшино"
+  },
+  {
+    "original_name": "Пролетарская",
+    "replace_with": "Хуетарская"
+  },
+  {
+    "original_name": "Вернадского",
+    "replace_with": "Хуядского"
   },
   {
     "original_name": "Проспект Мира",
     "replace_with": "Проспект Хуира"
   },
   {
-    "original_name": "Новослободская",
-    "replace_with": "Новохуёдкая"
+    "original_name": "Профсоюзная",
+    "replace_with": "Профхуюзная"
   },
   {
-    "original_name": "Новокузнецкая",
-    "replace_with": "Новохуецкая"
+    "original_name": "Пушкинская",
+    "replace_with": "Хуюшкинская"
   },
   {
-    "original_name": "Новокузнецкая",
-    "replace_with": "Новохуецкая"
+    "original_name": "Пыхтино",
+    "replace_with": "Хуихтино"
   },
   {
-    "original_name": "Новокузнецкая",
-    "replace_with": "Новохуецкая"
+    "original_name": "Пятницкое",
+    "replace_with": "Хуятницкое"
   },
   {
-    "original_name": "Новокузнецкая",
-    "replace_with": "Новохуецкая"
+    "original_name": "Рабочий Посёлок",
+    "replace_with": "Рабочий Хуёлок"
   },
   {
-    "original_name": "Новокузнецкая",
-    "replace_with": "Новохуецкая"
+    "original_name": "Раменки",
+    "replace_with": "Хуяменки"
   },
   {
-    "original_name": "Новокузнецкая",
-    "replace_with": "Новохуецкая"
+    "original_name": "Раменское",
+    "replace_with": "Хуяменское"
   },
   {
-    "original_name": "Новокузнецкая",
-    "replace_with": "Новохуецкая"
+    "original_name": "Рассказовка",
+    "replace_with": "Хуязовка"
   },
   {
-    "original_name": "Новокузнецкая",
-    "replace_with": "Новохуецкая"
+    "original_name": "Реутов",
+    "replace_with": "Хуеутов"
+  },
+  {
+    "original_name": "Речной вокзал",
+    "replace_with": "Хуечной вокзал"
+  },
+  {
+    "original_name": "Рижская",
+    "replace_with": "Хуижская"
+  },
+  {
+    "original_name": "Римская",
+    "replace_with": "Хуимская"
+  },
+  {
+    "original_name": "Ростокино",
+    "replace_with": "Хуёкино"
+  },
+  {
+    "original_name": "Румянцево",
+    "replace_with": "Хуянцево"
+  },
+  {
+    "original_name": "Рязанский проспект",
+    "replace_with": "Хуянский проспект"
+  },
+  {
+    "original_name": "Савёловская",
+    "replace_with": "Хуёловская"
+  },
+  {
+    "original_name": "Саларьево",
+    "replace_with": "Хуярьево"
+  },
+  {
+    "original_name": "Салтыковская",
+    "replace_with": "Хуйтыковская"
+  },
+  {
+    "original_name": "Санино",
+    "replace_with": "Хуйсосанино"
+  },
+  {
+    "original_name": "Свиблово",
+    "replace_with": "Хуиблово"
+  },
+  {
+    "original_name": "Севастопольская",
+    "replace_with": "Хуестопольская"
+  },
+  {
+    "original_name": "Селигерская",
+    "replace_with": "Хуегерская"
+  },
+  {
+    "original_name": "Семёновская",
+    "replace_with": "Хуёновская"
+  },
+  {
+    "original_name": "Серп и Молот",
+    "replace_with": "Хуй и Молот"
+  },
+  {
+    "original_name": "Серпуховская",
+    "replace_with": "Серпухуёвская"
+  },
+  {
+    "original_name": "Сетунь",
+    "replace_with": "Хуетунь"
+  },
+  {
+    "original_name": "Силикатная",
+    "replace_with": "Хуекатная"
+  },
+  {
+    "original_name": "Сколково",
+    "replace_with": "Хуёлково"
+  },
+  {
+    "original_name": "Славянский бульвар",
+    "replace_with": "Хуянский бульвар"
+  },
+  {
+    "original_name": "Смоленская",
+    "replace_with": "Хуенская"
+  },
+  {
+    "original_name": "Сокол",
+    "replace_with": "Хуёкол"
+  },
+  {
+    "original_name": "Соколиная Гора",
+    "replace_with": "Хуйлиная Гора"
+  },
+  {
+    "original_name": "Сокольники",
+    "replace_with": "Хуёльники"
+  },
+  {
+    "original_name": "Солнечная",
+    "replace_with": "Хуёлнечная"
+  },
+  {
+    "original_name": "Солнцево",
+    "replace_with": "Хуёнцево"
+  },
+  {
+    "original_name": "Сортировочная",
+    "replace_with": "Хуеровочная"
+  },
+  {
+    "original_name": "Спартак",
+    "replace_with": "Хуетак"
+  },
+  {
+    "original_name": "Спортивная",
+    "replace_with": "Хуивная"
+  },
+  {
+    "original_name": "Сретенский бульвар",
+    "replace_with": "Хуетенский бульвар"
+  },
+  {
+    "original_name": "Стахановская",
+    "replace_with": "Хуяновская"
+  },
+  {
+    "original_name": "Стрешнево",
+    "replace_with": "Хуешнево"
+  },
+  {
+    "original_name": "Строгино",
+    "replace_with": "Хуегино"
+  },
+  {
+    "original_name": "Студенческая",
+    "replace_with": "Хуенческая"
+  },
+  {
+    "original_name": "Сухаревская",
+    "replace_with": "Хуюхаревская"
+  },
+  {
+    "original_name": "Сходненская",
+    "replace_with": "Хуёдненская"
+  },
+  {
+    "original_name": "Сходня",
+    "replace_with": "Хуёдня"
+  },
+  {
+    "original_name": "Таганская",
+    "replace_with": "Хуянская"
+  },
+  {
+    "original_name": "Тверская",
+    "replace_with": "Хуерская"
+  },
+  {
+    "original_name": "Театральная",
+    "replace_with": "Хуяльная"
+  },
+  {
+    "original_name": "Текстильщики",
+    "replace_with": "Хуильщики"
+  },
+  {
+    "original_name": "Терехово",
+    "replace_with": "Хуерехово"
+  },
+  {
+    "original_name": "Тестовская",
+    "replace_with": "Хуестовская"
+  },
+  {
+    "original_name": "Технопарк",
+    "replace_with": "Хуепарк"
+  },
+  {
+    "original_name": "Тимирязевская",
+    "replace_with": "Хуязевская"
+  },
+  {
+    "original_name": "Толстопальцево",
+    "replace_with": "Толстохуйцево"
+  },
+  {
+    "original_name": "Томилино",
+    "replace_with": "Хуилино"
+  },
+  {
+    "original_name": "Третьяковская",
+    "replace_with": "Хуяковская"
+  },
+  {
+    "original_name": "Трикотажная",
+    "replace_with": "Хуетажная"
+  },
+  {
+    "original_name": "Тропарёво",
+    "replace_with": "Хуярёво"
+  },
+  {
+    "original_name": "Трубная",
+    "replace_with": "Хуюбная"
+  },
+  {
+    "original_name": "Тульская",
+    "replace_with": "Хуюльская"
+  },
+  {
+    "original_name": "Тургеневская",
+    "replace_with": "Хуеневская"
+  },
+  {
+    "original_name": "Тушинская",
+    "replace_with": "Хуюшинская"
+  },
+  {
+    "original_name": "Тёплый Стан",
+    "replace_with": "Тёплый Хуй"
+  },
+  {
+    "original_name": "Угрешская",
+    "replace_with": "Хуешская"
+  },
+  {
+    "original_name": "Удельная",
+    "replace_with": "Хуельная"
+  },
+  {
+    "original_name": "1905 года",
+    "replace_with": "Хуй Знает Какого года"
+  },
+  {
+    "original_name": "Академика Янгеля",
+    "replace_with": "Хуедемика Хуянгеля"
+  },
+  {
+    "original_name": "Горчакова",
+    "replace_with": "Хуйчакова"
+  },
+  {
+    "original_name": "Дмитриевского",
+    "replace_with": "Хуитриевского"
+  },
+  {
+    "original_name": "Скобелевская",
+    "replace_with": "Хуйбелевская"
+  },
+  {
+    "original_name": "Старокачаловская",
+    "replace_with": "Хуекачаловская"
+  },
+  {
+    "original_name": "Университет",
+    "replace_with": "Хуеситет"
+  },
+  {
+    "original_name": "Ухтомская",
+    "replace_with": "Хуетомская"
+  },
+  {
+    "original_name": "Фабричная",
+    "replace_with": "Хуичная"
+  },
+  {
+    "original_name": "Физтех",
+    "replace_with": "Хуйтех"
+  },
+  {
+    "original_name": "Филатов Луг",
+    "replace_with": "Хуятов Луг"
+  },
+  {
+    "original_name": "Фили",
+    "replace_with": "Хуйли"
+  },
+  {
+    "original_name": "Филёвский",
+    "replace_with": "Хуйлёвский"
+  },
+  {
+    "original_name": "Фирсановская",
+    "replace_with": "Хуяновская"
+  },
+  {
+    "original_name": "Фонвизинская",
+    "replace_with": "Хуизинская"
+  },
+  {
+    "original_name": "Фрунзенская",
+    "replace_with": "Хуюнзенская"
+  },
+  {
+    "original_name": "Химки",
+    "replace_with": "Хуимки"
+  },
+  {
+    "original_name": "Хлебниково",
+    "replace_with": "Хуебниково"
+  },
+  {
+    "original_name": "Ховрино",
+    "replace_with": "Хуёврино"
+  },
+  {
+    "original_name": "Хорошёво",
+    "replace_with": "Хуёво"
+  },
+  {
+    "original_name": "Хорошёвская",
+    "replace_with": "Хуёвская"
+  },
+  {
+    "original_name": "ЦСКА",
+    "replace_with": "ХУЕСКА"
+  },
+  {
+    "original_name": "Царицыно",
+    "replace_with": "Хуицыно"
+  },
+  {
+    "original_name": "Цветной",
+    "replace_with": "Хуетной"
+  },
+  {
+    "original_name": "Черкизовская",
+    "replace_with": "Хуизовская"
+  },
+  {
+    "original_name": "Чертановская",
+    "replace_with": "Хуяновская"
+  },
+  {
+    "original_name": "Чеховская",
+    "replace_with": "Хуеховская"
+  },
+  {
+    "original_name": "Чистые пруды",
+    "replace_with": "Чистые хуи"
+  },
+  {
+    "original_name": "Чкаловская",
+    "replace_with": "Хуяловская"
+  },
+  {
+    "original_name": "Чухлинка",
+    "replace_with": "Хуйлинка"
+  },
+  {
+    "original_name": "Шаболовская",
+    "replace_with": "Хуяболовская"
+  },
+  {
+    "original_name": "Шелепиха",
+    "replace_with": "Хуепиха"
+  },
+  {
+    "original_name": "Шереметьевская",
+    "replace_with": "Хуеметьевская"
+  },
+  {
+    "original_name": "Шипиловская",
+    "replace_with": "Хуиловская"
+  },
+  {
+    "original_name": "Энтузиастов",
+    "replace_with": "Хуезиастов"
+  },
+  {
+    "original_name": "Щербинка",
+    "replace_with": "Хуербинка"
+  },
+  {
+    "original_name": "Щукинская",
+    "replace_with": "Хуюкинская"
+  },
+  {
+    "original_name": "Щёлковская",
+    "replace_with": "Хуёлковская"
+  },
+  {
+    "original_name": "Электрозаводская",
+    "replace_with": "Хуезаводская"
+  },
+  {
+    "original_name": "Юго-Восточная",
+    "replace_with": "Хуесточная"
+  },
+  {
+    "original_name": "Юго-Западная",
+    "replace_with": "Хуяпадная"
+  },
+  {
+    "original_name": "Южная",
+    "replace_with": "Хуюжная"
+  },
+  {
+    "original_name": "Ясенево",
+    "replace_with": "Хуясенево"
+  },
+  {
+    "original_name": "Яхромская",
+    "replace_with": "Хуёмская"
   }
 ]

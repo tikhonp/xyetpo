@@ -3,7 +3,7 @@
         let text = element.innerHTML
         for (let station of data) {
             if (text.includes(station.original_name)) {
-                element.innerHTML = text.replace(station.original_name, station.replace_with)
+                element.innerHTML = station.replace_with  // text.replace(station.original_name, station.replace_with)
             }
         }
     }
