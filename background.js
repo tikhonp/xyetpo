@@ -3,7 +3,7 @@
         details => {
             chrome.tabs.sendMessage(details.tabId, { type: 'pageRendered' });
         },
-        { url: [ { hostSuffix: 'yandex.ru' } ] }
+        { url: [{ hostSuffix: 'yandex.ru' }] }
     );
 })();
 
