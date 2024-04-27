@@ -3,7 +3,7 @@
     "version": "1.0.0",
     "manifest_version": 3,
     "description": "Presents the Moscow metro stations in a huyman readable format.",
-    "author": "Tikhon Petrishchev & Artur Khazbulatov",
+    "author": "Tikhon Petrishchev & Arthur Khazbulatov",
     "permissions": ["webRequest", "webNavigation"],
     "host_permissions": ["https://*.yandex.ru/metro/*"],
     "content_scripts": [
