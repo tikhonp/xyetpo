@@ -1,7 +1,8 @@
 <div align="center">
-    <br>
-    <h1>Xyetpo</h1>
-    ![Xyetro Logo](icons/128.png)
+    
+![Xyetro Logo](icons/128.png)
+
+<h1>XYETPO</h1>
 </div>
 
 Самая точная карта метро Москвы. 
