@@ -1,51 +1,66 @@
-(() => {
-    const manipulateMapElement = (element, data) => {
-        let text = element.innerHTML
-        for (let station of data) {
-            if (text.includes(station.original_name)) {
-                element.innerHTML = element.innerHTML.replace(station.original_name, station.replace_with)
-            }
+// Description: This script is injected into the webpage and replaces station names with their REAL names.
+
+// Interval in millis to wait before trying to replace station names
+const delayIntervalMs = 350
+
+// URL to stations data JSON file. It bundled with an extension
+const stationsUrl = chrome.runtime.getURL('stations_data.json')
+
+// Stations data loaded from JSON file "stations_data.json"
+// im storing it in global variable to avoid fetching it every time
+var stations = undefined
+
+// Replace text in element with station name if old text exists as key in stations object
+function manipulateMapElement(element, attribute) {
+    let text = element[attribute]
+    if (text != undefined) {
+        let replaceWith = stations[text]
+        if (replaceWith != undefined) {
+            element[attribute] = replaceWith
         }
     }
+}
 
-    const renderStations = () => {
-        let url = chrome.runtime.getURL('stations_data.json')
-        setTimeout(function() {
-            fetch(url)
-                .then(response => response.json())
-                .then(data => {
-                    const elements = document.getElementsByTagName('tspan');
-                    for (let item of elements) {
-                        manipulateMapElement(item, data)
-                    }
+// Replace station names in whole webpage
+function renderStations() {
+    document
+        .querySelectorAll('tspan, span, div.route-masstransit-step-view__title')
+        .forEach((element) => { manipulateMapElement(element, 'innerHTML') })
 
-                    const popupElements = document.getElementsByTagName('span')
-                    for (let item of popupElements) {
-                        manipulateMapElement(item, data)
-                    }
+    document
+        .querySelectorAll('input')
+        .forEach((element) => { manipulateMapElement(element, 'value') })
+}
 
-                    const divElements = document.getElementsByClassName('route-masstransit-step-view__title')
-                    for (let item of divElements) {
-                        manipulateMapElement(item, data)
-                    }
-
-                    const inputElements = document.getElementsByTagName('input')
-                    for (let item of inputElements) {
-                        for (let station of data) {
-                            if (item.value.includes(station.original_name)) {
-                                item.value = station.replace_with
-                            }
-                        }
-                    }
-                })
-        }, 200);
-    }
-
-    chrome.runtime.onMessage.addListener(function(request) {
-        if (request && request.type === 'pageRendered') {
-            renderStations()
-        }
-    });
-
+// In some cases website is not fully loaded, so we need to wait a bit and try again
+// And for other cases i put another direct call to renderStations() for faster rendering
+function renderStationsRelaible() {
+    setTimeout(
+        function() { renderStations() },
+        delayIntervalMs
+    )
     renderStations()
-})();
+}
+
+// Main calls on every page load or change
+// Fetch stations data if not loaded yet
+function main() {
+    if (stations == undefined) {
+        fetch(stationsUrl)
+            .then(response => response.json())
+            .then(data => {
+                stations = data
+                renderStationsRelaible()
+            })
+            .catch(error => console.error('Error fetching stations:', error))
+    } else {
+        renderStationsRelaible()
+    }
+}
+
+// Listen for messages from background script
+chrome.runtime.onMessage.addListener(function(request) {
+    if (request && request.type === 'pageRendered') {
+        main()
+    }
+})
