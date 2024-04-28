@@ -1,6 +1,6 @@
 // Description: This script is injected into the webpage and replaces station names with their REAL names.
 
-// Interval in millis to wait before trying to replace station names
+// Interval in milliseconds to wait before trying to replace station names
 const delayIntervalMs = 350
 
 // URL to stations data JSON file. It bundled with an extension
@@ -34,7 +34,7 @@ function renderStations() {
 
 // In some cases website is not fully loaded, so we need to wait a bit and try again
 // And for other cases i put another direct call to renderStations() for faster rendering
-function renderStationsRelaible() {
+function renderStationsReliable() {
     setTimeout(
         function() { renderStations() },
         delayIntervalMs
@@ -50,11 +50,11 @@ function main() {
             .then(response => response.json())
             .then(data => {
                 stations = data
-                renderStationsRelaible()
+                renderStationsReliable()
             })
             .catch(error => console.error('Error fetching stations:', error))
     } else {
-        renderStationsRelaible()
+        renderStationsReliable()
     }
 }
 
