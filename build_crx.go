@@ -11,6 +11,34 @@ import (
 const chrome = "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"
 const build_dir = "xyetro"
 
+func copyDir(src string, dst string) {
+	entries, err := os.ReadDir(src)
+	if err != nil {
+		log.Fatalf("Error reading %s: %v", src, err)
+	}
+	if _, err := os.Stat(dst); os.IsNotExist(err) {
+		if err := os.Mkdir(dst, os.ModePerm); err != nil {
+			log.Fatalf("Error creating %s: %v", dst, err)
+		}
+	} else if err != nil {
+		log.Fatalf("Error checking for %s: %v", dst, err)
+	}
+	for _, entry := range entries {
+		srcPath := fmt.Sprintf("%s/%s", src, entry.Name())
+		dstPath := fmt.Sprintf("%s/%s", dst, entry.Name())
+		if entry.IsDir() {
+			if _, err := os.Stat(dstPath); os.IsNotExist(err) {
+				if err := os.Mkdir(dstPath, os.ModePerm); err != nil {
+					log.Fatalf("Error creating %s: %v", dstPath, err)
+				}
+			}
+			copyDir(srcPath, dstPath)
+		} else {
+			copy(srcPath, dstPath)
+		}
+	}
+}
+
 func copy(src string, dst string) {
 	data, err := os.ReadFile(src)
 	if err != nil {
@@ -51,7 +79,7 @@ func createBuildDir() {
 	}
 	copy("background.js", fmt.Sprintf("%s/background.js", build_dir))
 	copy("content_script.js", fmt.Sprintf("%s/content_script.js", build_dir))
-	copy("icon.jpeg", fmt.Sprintf("%s/icon.jpeg", build_dir))
+	copyDir("icons", fmt.Sprintf("%s/icons", build_dir))
 	copy("manifest.json", fmt.Sprintf("%s/manifest.json", build_dir))
 	copy("stations_data.json", fmt.Sprintf("%s/stations_data.json", build_dir))
 }
