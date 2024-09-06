@@ -40,10 +40,11 @@ function renderStationsReliable() {
 }
 
 function getStationsDataUrl(pageUrl) {
-    let city = pageUrl
+    let urlElements = pageUrl
         .split('?')[0]
         .split('/')
-        .slice(-1)[0]
+    let prevElementIndex = urlElements.findIndex((element) => element == 'metro')
+    let city = urlElements[prevElementIndex + 1]
     return chrome.runtime.getURL(`stations_data/${city}.json`)
 }
 
