@@ -1,10 +1,7 @@
 // Description: This script is injected into the webpage and replaces station names with their REAL names.
 
-// Interval in milliseconds to wait before trying to replace station names
+// Interval in millis to wait before trying to replace station names
 const delayIntervalMs = 350
-
-// URL to stations data JSON file. It bundled with an extension
-const stationsUrl = chrome.runtime.getURL('stations_data.json')
 
 // Stations data loaded from JSON file "stations_data.json"
 // im storing it in global variable to avoid fetching it every time
@@ -42,11 +39,19 @@ function renderStationsReliable() {
     renderStations()
 }
 
+function getStationsDataUrl(pageUrl) {
+    let city = pageUrl
+        .split('?')[0]
+        .split('/')
+        .slice(-1)[0]
+    return chrome.runtime.getURL(`stations_data/${city}.json`)
+}
+
 // Main calls on every page load or change
 // Fetch stations data if not loaded yet
-function main() {
+function main(pageUrl) {
     if (stations == undefined) {
-        fetch(stationsUrl)
+        fetch(getStationsDataUrl(pageUrl))
             .then(response => response.json())
             .then(data => {
                 stations = data
@@ -56,11 +61,13 @@ function main() {
     } else {
         renderStationsReliable()
     }
+    getStationsDataUrl(pageUrl)
 }
 
 // Listen for messages from background script
-chrome.runtime.onMessage.addListener(function(request) {
-    if (request && request.type === 'pageRendered') {
-        main()
+chrome.runtime.onMessage.addListener(function(message) {
+    if (message && message.type === 'pageRendered') {
+        main(message.url)
     }
 })
+

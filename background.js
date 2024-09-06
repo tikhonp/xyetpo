@@ -5,7 +5,10 @@ function main() {
             details => {
                 chrome.tabs.sendMessage(
                     details.tabId,
-                    { type: 'pageRendered' }
+                    {
+                        type: 'pageRendered',
+                        url: details.url,
+                    }
                 )
             },
             { url: [{ hostSuffix: 'yandex.ru' }] }
@@ -16,3 +19,4 @@ function main() {
     }
 }
 main()
+

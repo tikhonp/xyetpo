@@ -81,7 +81,7 @@ func createBuildDir() {
 	copy("content_script.js", fmt.Sprintf("%s/content_script.js", build_dir))
 	copyDir("icons", fmt.Sprintf("%s/icons", build_dir))
 	copy("manifest.json", fmt.Sprintf("%s/manifest.json", build_dir))
-	copy("stations_data.json", fmt.Sprintf("%s/stations_data.json", build_dir))
+	copyDir("stations_data", fmt.Sprintf("%s/stations_data", build_dir))
 }
 
 func packExtension() {
