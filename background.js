@@ -11,7 +11,12 @@ function main() {
                     }
                 )
             },
-            { url: [{ hostSuffix: 'yandex.ru' }] }
+            {
+                url: [{
+                    hostSuffix: 'yandex.ru',
+                    pathPrefix: '/metro/',
+                }]
+            }
         )
     } catch (e) {
         console.error('Error in main:', e)

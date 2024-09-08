@@ -1,6 +1,6 @@
 {
     "name": "XYETPO",
-    "version": "2.0.0",
+    "version": "2.0.1",
     "manifest_version": 3,
     "description": "Presents the Moscow metro stations in a huyman readable format.",
     "author": "Tikhon Petrishchev, Arthur Khazbulatov, Xenia Gladchuk",
@@ -16,10 +16,7 @@
     ],
     "web_accessible_resources": [
         {
-            "resources": [ 
-                "stations_data/moscow.json",
-                "stations_data/saint-petersburg.json"
-            ],
+            "resources": [ "stations_data/*" ],
             "matches": [ "https://*.yandex.ru/*" ]
         }
     ],
