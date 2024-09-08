@@ -1,6 +1,6 @@
 {
     "name": "XYETPO",
-    "version": "2.0.1",
+    "version": "2.0.2",
     "manifest_version": 3,
     "description": "Presents the Moscow metro stations in a huyman readable format.",
     "author": "Tikhon Petrishchev, Arthur Khazbulatov, Xenia Gladchuk",
