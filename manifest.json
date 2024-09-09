@@ -4,13 +4,13 @@
     "manifest_version": 3,
     "description": "Presents the Moscow & St. Petersburg metro stations in a huyman readable format",
     "author": "Tikhon Petrishchev, Arthur Khazbulatov, Xenia Gladchuk",
-    "permissions": ["webNavigation"],
-    "host_permissions": ["https://*.yandex.ru/metro/*"],
+    "permissions": [ "webNavigation" ],
+    "host_permissions": [ "https://*.yandex.ru/metro/*" ],
     "content_scripts": [
         {
-            "matches": ["https://*.yandex.ru/metro/*"],
+            "matches": [ "https://*.yandex.ru/metro/*" ],
             "all_frames": true,
-            "js": ["content_script.js"],
+            "js": [ "content_script.js" ],
             "run_at": "document_end"
         }
     ],

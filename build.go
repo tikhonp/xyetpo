@@ -2,6 +2,7 @@ package main
 
 import (
 	"bytes"
+	"flag"
 	"fmt"
 	"log"
 	"os"
@@ -50,6 +51,8 @@ func copy(src string, dst string) {
 	}
 }
 
+// createEnv checks if build directory exists and removes them if they do.
+// It also checks if chrome exists.
 func createEnv() {
 	// Check if chrome exists
 	if _, err := os.Stat(chrome); os.IsNotExist(err) {
@@ -62,14 +65,6 @@ func createEnv() {
 		os.RemoveAll(build_dir)
 	} else if !os.IsNotExist(err) {
 		log.Fatalf("Error checking for %s: %v", build_dir, err)
-	}
-
-	// Check if output file exists and remove it if it does
-	output := fmt.Sprintf("%s.crx", build_dir)
-	if _, err := os.Stat(output); err == nil {
-		os.Remove(output)
-	} else if !os.IsNotExist(err) {
-		log.Fatalf("Error checking for %s: %v", output, err)
 	}
 }
 
@@ -84,7 +79,16 @@ func createBuildDir() {
 	copyDir("stations_data", fmt.Sprintf("%s/stations_data", build_dir))
 }
 
-func packExtension() {
+func packCrxExtension() {
+
+	// Check if output file exists and remove it if it does
+	output := fmt.Sprintf("%s.crx", build_dir)
+	if _, err := os.Stat(output); err == nil {
+		os.Remove(output)
+	} else if !os.IsNotExist(err) {
+		log.Fatalf("Error checking for %s: %v", output, err)
+	}
+
 	pemFile := fmt.Sprintf("%s.pem", build_dir)
 	var cmd *exec.Cmd
 	if _, err := os.Stat(pemFile); err == nil {
@@ -102,11 +106,38 @@ func packExtension() {
 		log.Fatalf("Packing failed with %s\n    %s\n", err, stderr.String())
 	}
 	os.RemoveAll(build_dir)
+	log.Println("Extension packed successfully. You can find it at", output)
+}
+
+func packZipExtension() {
+
+	// Check if output file exists and remove it if it does
+	output := fmt.Sprintf("%s.zip", build_dir)
+	if _, err := os.Stat(output); err == nil {
+		os.Remove(output)
+	} else if !os.IsNotExist(err) {
+		log.Fatalf("Error checking for %s: %v", output, err)
+	}
+
+	cmd := exec.Command("zip", "-r", output, build_dir)
+	var stderr bytes.Buffer
+	cmd.Stderr = &stderr
+	err := cmd.Run()
+	if err != nil {
+		log.Fatalf("Packing failed with %s\n    %s\n", err, stderr.String())
+	}
+	os.RemoveAll(build_dir)
+	log.Println("Extension packed successfully. You can find it at", output)
 }
 
 func main() {
+	isChromeWebStore := flag.Bool("chrome-web-store", false, "Pack extension for Chrome Web Store and ZIP it.")
+	flag.Parse()
 	createEnv()
 	createBuildDir()
-	packExtension()
-	log.Println("Extension packed successfully")
+	if isChromeWebStore != nil && *isChromeWebStore {
+		packZipExtension()
+	} else {
+		packCrxExtension()
+	}
 }

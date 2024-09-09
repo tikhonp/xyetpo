@@ -133,3 +133,5 @@ dist
 .idea/
 *.crx
 *.pem
+*.zip
+
