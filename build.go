@@ -25,6 +25,9 @@ func copyDir(src string, dst string) {
 		log.Fatalf("Error checking for %s: %v", dst, err)
 	}
 	for _, entry := range entries {
+		if entry.Name() == ".DS_Store" {
+			continue
+		}
 		srcPath := fmt.Sprintf("%s/%s", src, entry.Name())
 		dstPath := fmt.Sprintf("%s/%s", dst, entry.Name())
 		if entry.IsDir() {
