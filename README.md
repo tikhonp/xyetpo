@@ -16,6 +16,10 @@
 
 ## Google Chrome (или Cromium)
 
+> Расширение можно скачать из [Chrome Web Store](https://chromewebstore.google.com/detail/xyetpo/hnajaplcneokjbgldkgmckimhagdilmo).
+
+#### ИЛИ установить вручную
+
 1. Скачайте архив с расширением [отсюда](https://github.com/tikhonp/xyetpo/tags): выберите последнюю версию и нажмите ZIP.
 
 2. Распакуйте архив в удобное место на вашем компьютере.
