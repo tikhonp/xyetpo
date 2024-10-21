@@ -11,7 +11,7 @@
 Это расширение для браузера Google Chrome делает сервис [Яндекс Метро](https://yandex.ru/metro) наконец-то пригодным для использования пассажирами.
 
 > **X**tensible  
-> **Y**andex.Maps  
+> **Y**andex Metro  
 > **E**ntertaining  
 > **T**ransit  
 > **P**lanning  
