@@ -2,20 +2,29 @@
     
 ![Xyetro Logo](icons/128.png)
 
-<h1>🔝 XYETPO 🔝</h1>
+<h1>XYETPO</h1>
 </div>
 
-Самая точная карта метро Москвы и Питера. 
+> [!TIP]
+> Самая точная карта метро Москвы и Питера.
 
 Это расширение для браузера Google Chrome делает сервис [Яндекс Метро](https://yandex.ru/metro) наконец-то пригодным для использования пассажирами.
 
+> **X**tensible  
+> **Y**andex.Maps  
+> **E**ntertaining  
+> **T**ransit  
+> **P**lanning  
+> **O**ptimizer
+
 # 🛠 Установка
 
-- [Google Chrome](#google-chrome-или-cromium)
+- [Google Chrome](#google-chrome-или-chromium)
 - [Opera](#opera)
 
-## Google Chrome (или Cromium)
+## Google Chrome (или Chromium)
 
+> [!TIP]
 > Расширение можно скачать из [Chrome Web Store](https://chromewebstore.google.com/detail/xyetpo/hnajaplcneokjbgldkgmckimhagdilmo).
 
 #### ИЛИ установить вручную
