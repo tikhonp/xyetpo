@@ -9,8 +9,8 @@ import (
 	"os/exec"
 )
 
-const chrome = "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"
-const build_dir = "xyetro"
+const chrome = "/usr/bin/chromium-browser" // "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"
+const buildDir = "xyetro"
 
 func copyDir(src string, dst string) {
 	entries, err := os.ReadDir(src)
@@ -64,41 +64,41 @@ func createEnv() {
 	}
 
 	// Check if build directory exists and remove it if it does
-	if _, err := os.Stat(build_dir); err == nil {
-		os.RemoveAll(build_dir)
+	if _, err := os.Stat(buildDir); err == nil {
+		os.RemoveAll(buildDir)
 	} else if !os.IsNotExist(err) {
-		log.Fatalf("Error checking for %s: %v", build_dir, err)
+		log.Fatalf("Error checking for %s: %v", buildDir, err)
 	}
 }
 
 func createBuildDir() {
-	if err := os.Mkdir(build_dir, os.ModePerm); err != nil {
-		log.Fatalf("Error creating %s: %v", build_dir, err)
+	if err := os.Mkdir(buildDir, os.ModePerm); err != nil {
+		log.Fatalf("Error creating %s: %v", buildDir, err)
 	}
-	copy("background.js", fmt.Sprintf("%s/background.js", build_dir))
-	copy("content_script.js", fmt.Sprintf("%s/content_script.js", build_dir))
-	copyDir("icons", fmt.Sprintf("%s/icons", build_dir))
-	copy("manifest.json", fmt.Sprintf("%s/manifest.json", build_dir))
-	copyDir("stations_data", fmt.Sprintf("%s/stations_data", build_dir))
+	copy("background.js", fmt.Sprintf("%s/background.js", buildDir))
+	copy("content_script.js", fmt.Sprintf("%s/content_script.js", buildDir))
+	copyDir("icons", fmt.Sprintf("%s/icons", buildDir))
+	copy("manifest.json", fmt.Sprintf("%s/manifest.json", buildDir))
+	copyDir("stations_data", fmt.Sprintf("%s/stations_data", buildDir))
 }
 
 func packCrxExtension() {
 
 	// Check if output file exists and remove it if it does
-	output := fmt.Sprintf("%s.crx", build_dir)
+	output := fmt.Sprintf("%s.crx", buildDir)
 	if _, err := os.Stat(output); err == nil {
 		os.Remove(output)
 	} else if !os.IsNotExist(err) {
 		log.Fatalf("Error checking for %s: %v", output, err)
 	}
 
-	pemFile := fmt.Sprintf("%s.pem", build_dir)
+	pemFile := fmt.Sprintf("%s.pem", buildDir)
 	var cmd *exec.Cmd
 	if _, err := os.Stat(pemFile); err == nil {
-		cmd = exec.Command(chrome, "--pack-extension="+build_dir, "--pack-extension-key="+pemFile)
+		cmd = exec.Command(chrome, "--pack-extension="+buildDir, "--pack-extension-key="+pemFile)
 	} else if os.IsNotExist(err) {
 		log.Println("No pem file found, packing extension without key")
-		cmd = exec.Command(chrome, "--pack-extension="+build_dir)
+		cmd = exec.Command(chrome, "--pack-extension="+buildDir)
 	} else {
 		log.Fatalf("Error checking for %s: %v", pemFile, err)
 	}
@@ -108,28 +108,28 @@ func packCrxExtension() {
 	if err != nil {
 		log.Fatalf("Packing failed with %s\n    %s\n", err, stderr.String())
 	}
-	os.RemoveAll(build_dir)
+	os.RemoveAll(buildDir)
 	log.Println("Extension packed successfully. You can find it at", output)
 }
 
 func packZipExtension() {
 
 	// Check if output file exists and remove it if it does
-	output := fmt.Sprintf("%s.zip", build_dir)
+	output := fmt.Sprintf("%s.zip", buildDir)
 	if _, err := os.Stat(output); err == nil {
 		os.Remove(output)
 	} else if !os.IsNotExist(err) {
 		log.Fatalf("Error checking for %s: %v", output, err)
 	}
 
-	cmd := exec.Command("zip", "-r", output, build_dir)
+	cmd := exec.Command("zip", "-r", output, buildDir)
 	var stderr bytes.Buffer
 	cmd.Stderr = &stderr
 	err := cmd.Run()
 	if err != nil {
 		log.Fatalf("Packing failed with %s\n    %s\n", err, stderr.String())
 	}
-	os.RemoveAll(build_dir)
+	os.RemoveAll(buildDir)
 	log.Println("Extension packed successfully. You can find it at", output)
 }
 
